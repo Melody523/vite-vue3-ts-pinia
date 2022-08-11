@@ -20,10 +20,10 @@ export default defineComponent({
       });
       const requestRes = async () => {
         let result = await API.getCatalogs();
-      }
-      requestRes()
+      };
+      requestRes();
     };
-    requestRes()
+    requestRes();
     return {
       x,
       y,
@@ -32,5 +32,4 @@ export default defineComponent({
 });
 </script>
 
-<style>
-</style>
+<style></style>

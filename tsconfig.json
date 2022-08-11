@@ -17,9 +17,9 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "baseUrl": "./",
-    "paths":{
+    "paths": {
       // "@": ["src"],
-      "@/*": ["./src/*"],
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],

@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from 'vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'HelloWorld',
   setup() {
-    defineProps<{ msg: string }>()
-    const count = ref(0)
+    defineProps<{ msg: string }>();
+    const count = ref(0);
     return {
-      count
+      count,
     };
   },
 });
